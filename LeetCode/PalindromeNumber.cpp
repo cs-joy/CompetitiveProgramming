@@ -1,3 +1,7 @@
+#include<iostream>
+
+using namespace std;
+
 class Solution {
 public:
     int reverseInteger(int num) {
@@ -22,5 +26,14 @@ public:
         return false;
     }
 };
+
+int main() {
+    int num;
+    cin >> num;
+    Solution solution;
+    cout << solution.isPalindrome(num);
+
+    return 0;
+}
 
 // source: https://leetcode.com/problems/palindrome-number/submissions/
